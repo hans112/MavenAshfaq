@@ -11,10 +11,10 @@ pipeline {
 
         stage('Build') {
         
-        steps{
+      //  steps{
         
-        	sh 'git checkout Develop'
-        }
+        //	sh 'git checkout Develop'
+       // }
             steps {
                 // Use Maven to build the Java project
                 sh 'mvn clean install'
