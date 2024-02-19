@@ -51,6 +51,7 @@ pipeline {
 
         always {
             // Clean up or perform actions that need to happen regardless of success or failure
+            echo 'it is succeeded'
         }
     }
 }
